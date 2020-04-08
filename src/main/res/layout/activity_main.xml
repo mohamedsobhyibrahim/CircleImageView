@@ -11,11 +11,21 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/profile_placeholder"
-        app:civ_border_color="#FFFF0000"
+        app:civ_border_color="#000000"
         app:civ_border_width="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/add_photo_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/add_profile_picture_icon"
+        app:layout_constraintBottom_toBottomOf="@id/profile_image"
+        app:layout_constraintEnd_toEndOf="@+id/profile_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
